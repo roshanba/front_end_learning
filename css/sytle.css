@@ -136,3 +136,56 @@ html {
 .btn--outline:active {
   background-color: #fdf2e9;
 }
+
+/* #############
+      HEADER
+############### */
+
+/* Section header is flex box with 2 flex items 
+
+logo -> widht given 50% to divide the content equally into 2 
+navigation-menu-> the remaining 50% space is taken automatically
+
+
+*/
+.section-header{
+  display: flex;
+  padding: 2rem 2rem;
+}
+
+.logo{
+width: 40%;
+}
+/* img widht set to 50% to make it smaller */
+.logo img{
+  width: 50%;
+}
+
+.navigation-main ul{
+display: flex;
+gap: 3rem;
+} 
+.navigation-main ul li{
+  list-style: none;
+  
+  text-decoration: none;
+  } 
+
+.navigation-main ul li a{
+    list-style: none;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 525;
+    } 
+    
+/* * centering the navigation vertically */
+    .navigation-main {
+      display: flex;
+    
+} 
+
+.navigation-main ul{
+  align-items: center;
+}
+  
