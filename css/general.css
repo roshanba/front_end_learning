@@ -74,6 +74,9 @@ Medium:   1.2
     box-sizing: border-box;
   }
   
+  ul{
+    list-style: none;
+  }
   body {
     font-family: sans-serif;
     line-height: 1;
@@ -87,9 +90,19 @@ Medium:   1.2
   /* ##############
     GENERIC STYLES
   ############### */
+  .margin-top-md{
+    margin-top: 16rem;
+  }
+  .margin-bottom-sm {
+    margin-bottom: 1rem;
+  }
+
   
   .margin-right-sm {
     margin-right: 2rem;
+  }
+  .text-center{
+    text-align: left;
   }
   .container-center {
     margin: 0 auto;
@@ -98,6 +111,8 @@ Medium:   1.2
   .container-center-flex{
     display: flex;
   }
+ 
+ 
   .highlight{
     font-weight: 501;
     color: #cf711f;
@@ -130,17 +145,19 @@ Medium:   1.2
     margin-bottom: 9.6rem;
   }
   .heading-tertiary{
-    font-size: 3.2rem;
-    margin-bottom: 3.2rem;
+    font-size: 2.2rem;
+    margin-bottom: 2.2rem;
   }
   .grid{
     display: grid;
     column-gap: 6.4rem;
-    row-gap: 9.6rem;
+    
   }
   .grid--2-cols{
     grid-template-columns: repeat(2,1fr);
-  
+  }
+  .grid--3-cols{
+    grid-template-columns: repeat(3,1fr);
   }
   .grid--4-cols{
     grid-template-columns: repeat(4,1fr); 

@@ -1,6 +1,3 @@
-
-
-
 /* #############
       HEADER
 ############### */
@@ -166,7 +163,6 @@ gap: 3rem;
   
 }
 
-
 .step-number{
   font-size: 7.4rem;
   font-weight: 900;
@@ -178,3 +174,75 @@ gap: 3rem;
   font-size: 2.4rem;
   line-height: 1.5;
 }
+
+/************************/
+/* MEAL SECTION */
+/************************/
+.meal img{
+  width: 100% ;
+  border-top-left-radius:5%;
+  border-top-right-radius: 5%; 
+}
+
+.meal{
+ background-color: #e9e9e9;
+ border-top-left-radius:5%;
+ border-top-right-radius: 5%;
+ transition: all 0.5s;
+ box-shadow: 0.5rem 0.5rem 5px #afabab;
+}
+.meal:hover{
+  transform: translateY(-1rem);
+}
+.meal-text{
+  padding: 4rem;
+  font-size: 2rem;
+}
+.meal ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.meal ul span{
+  margin-right: 1rem;
+}
+.meal-icon{
+  color:#e67e22;
+}
+.meal-title{
+  letter-spacing: -0.7px;
+}
+
+.tag{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.tag--vegeterian{
+  background-color: #5db85d;
+}
+.tag--paleo{
+  background-color: #daad1a;
+}
+.meal-specs ul{
+  display: flex;
+  flex-direction: column;
+  gap:1.8rem;
+  font-size: 2rem;
+}
+.meal-specs ul li span{
+  margin-right: 1rem;
+}
+.more{
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+.more a {
+  text-decoration: underline;
+  color: #e67e22;
+}
+
