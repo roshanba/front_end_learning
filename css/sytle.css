@@ -272,8 +272,55 @@ gap: 3rem;
 .testimonial-text{
   font-size: 2rem;
   margin: 2rem 0rem;
+  line-height: 2;
 }
 .testimonial-author{
   color: #a7a7a7;
+}
+
+/************************/
+/* PRICING SECTION */
+/************************/
+
+.plan-cards{
+  grid-template-columns: repeat(2,0.35fr);
+  justify-content: center;
 
 }
+.plan-card{
+  background-color: #fffce4;
+  
+  border-radius: 5%;
+}
+.plan-header{
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.plan-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2.4rem;
+  width: 50%;
+  margin: 0 auto;
+}
+.plan-list span{
+  margin-right: 1rem;
+}
+.price{
+  font-size: 5.2rem;
+  font-weight: 600;
+
+}
+.currency{
+  font-size: 3rem;
+}
+.price-details{
+  font-size: 2rem;
+}
+
