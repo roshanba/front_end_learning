@@ -72,7 +72,9 @@ Medium:   1.2
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
+  img{width: 100%;}
   
   ul{
     list-style: none;
@@ -111,13 +113,11 @@ Medium:   1.2
   .container-center-flex{
     display: flex;
   }
- 
- 
+
   .highlight{
-    font-weight: 501;
-    color: #cf711f;
-    letter-spacing: 0.1px;
+    color: #cf711f !important;
   }
+
   .subheading{
     font-size: 2rem;
     display: block;
@@ -130,7 +130,7 @@ Medium:   1.2
   .heading-primary, .heading-secondary,.heading-tertiary{
     font-weight: 700;
     color: #333;
-    letter-spacing: 0.5px;
+  
   }
   
   .heading-primary {
@@ -150,8 +150,7 @@ Medium:   1.2
   }
   .grid{
     display: grid;
-    column-gap: 6.4rem;
-    
+    column-gap: 6.4rem;    
   }
   .grid--2-cols{
     grid-template-columns: repeat(2,1fr);

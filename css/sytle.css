@@ -113,6 +113,7 @@ gap: 3rem;
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;
+  width: auto;
 }
 
 /************************/
@@ -245,4 +246,34 @@ gap: 3rem;
   text-decoration: underline;
   color: #e67e22;
 }
+/************************/
+/* TESTIMONIAL SECTION */
+/************************/
+.section-testimonial{
+  padding: 5rem;
+  align-items: center;
+}
+.testimonials{
+  align-items: center;
+  row-gap: 6rem;
+  
+}
+.testimonials img{
+  width: 15%;
+  border-radius: 50%;
 
+}
+.testimonial-gallery{
+  display: block;
+}
+.testimonial-gallery img{
+  width: 33%;
+}
+.testimonial-text{
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+.testimonial-author{
+  color: #a7a7a7;
+
+}
