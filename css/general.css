@@ -71,10 +71,16 @@ Medium:   1.2
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
   }
-  img{width: 100%;}
+  *:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.52);
+
+  }
+  img{width:
+     100%;
+  }
   
   ul{
     list-style: none;
@@ -165,6 +171,7 @@ Medium:   1.2
       align-items: center;
   }
   
+  .btn,
   .btn:link,
   .btn:visited {
     font-size: 2rem;
@@ -172,6 +179,9 @@ Medium:   1.2
     border-radius: 9px;
     text-decoration: none;
     transition: all 1s;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
   }
   
   .btn--full:link,
@@ -194,6 +204,12 @@ Medium:   1.2
   .btn--outline:hover,
   .btn--outline:active {
     background-color: #fdf2e9;
+  }
+  .btn--form{
+    background-color:#45260a ;
+    color:#fdf2e9 ;
+    align-self: end;
+    padding: 1.2rem;
   }
   
   
