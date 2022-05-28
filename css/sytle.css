@@ -416,3 +416,44 @@ gap: 3rem;
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
+
+/************************/
+/* FOOTER SECTION */
+/************************/
+
+.section-footer img{
+  width: 100%;
+}
+.section-footer{
+  margin: 4rem auto;
+  padding: 2rem;
+}
+.section-footer .logos {
+  gap: 1.2rem;
+  justify-content: flex-start;
+}
+
+.links .links-head{
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.links .footer-links{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.links .footer-links a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4rem;
+  color: #848484;
+}
+.logo-c{
+  display: grid;
+}
+.copyright{
+  justify-self: end;
+}

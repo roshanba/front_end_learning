@@ -76,7 +76,6 @@ Medium:   1.2
   *:focus{
     outline: none;
     box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.52);
-
   }
   img{width:
      100%;
@@ -166,6 +165,10 @@ Medium:   1.2
   }
   .grid--4-cols{
     grid-template-columns: repeat(4,1fr); 
+  }
+  .grid--5-cols{
+    grid-template-columns: repeat(5,1fr); 
+    column-gap: 5rem;
   }
   .grid--center-v{
       align-items: center;
